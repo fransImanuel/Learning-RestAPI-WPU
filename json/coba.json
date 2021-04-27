@@ -1,0 +1,26 @@
+[
+    {
+        "nama" : "Frans Imanuel",
+        "umur" : 21,
+        "nrp" : "21232",
+        "lulus" : true,
+        "hobby" : ["coding",
+                    "gaming"],
+        "pembimbing" : {
+            "pembimbing1" :"doddy",
+            "pembimbing2" :"dika"
+        }
+    },
+    {
+        "nama" : "Frans Imanuel",
+        "umur" : 21,
+        "nrp" : "21232",
+        "lulus" : true,
+        "hobby" : ["coding",
+                    "gaming"],
+        "pembimbing" : {
+            "pembimbing1" :"doddy",
+            "pembimbing2" :"dika"
+        }
+    }
+]

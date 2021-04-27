@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN JSON</title>
+</head>
+<body>
+    
+    <script>
+        // let mahasiswa = {
+        //     nama : "Frans Imanuel",
+        //     nim : "28631",
+        //     email : "frans@gmail.com"
+        // }
+        // console.log(JSON.stringify(mahasiswa));
+
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                let mahasiswa = JSON.parse(this.responseText);
+                console.log(mahasiswa);
+            }
+        }
+        xhr.open('GET', 'coba.json', true);
+        xhr.send();
+    </script>
+</body>
+</html>
